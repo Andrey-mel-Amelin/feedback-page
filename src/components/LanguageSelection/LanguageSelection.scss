@@ -1,0 +1,30 @@
+.language-selection {
+
+  &__wrapper {
+    position: relative;
+  }
+
+  &__wrapper::after {
+    content: '';
+    position: absolute;
+    top: 31%;
+    right: 15px;
+    transform: rotate(135deg);
+    display: block;
+    width: 8px;
+    height: 8px;
+    pointer-events: none;
+    border-right: 2px solid black;
+    border-top: 2px solid black;
+  }
+
+  &__select {
+    appearance: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px 35px 10px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+}

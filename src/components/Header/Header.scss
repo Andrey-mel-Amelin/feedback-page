@@ -1,0 +1,15 @@
+.header {
+  padding: 0 20px;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(251, 247, 247);
+  
+  &__logo {
+    min-height: 100px;
+    min-width: 100px;
+    background-image: url('../../images/logo.svg');
+    background-size: 100%;
+  }
+}

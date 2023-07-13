@@ -1,0 +1,27 @@
+.review-card {
+  display: grid;
+  grid-template-areas: 'name date' 'review review';
+  align-items: center;
+  gap: 20px 0;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow:  0 0 10px 1px black;
+
+  &__name {
+    font-size: 24px;
+    grid-area: name;
+    margin: 0;
+  }
+
+  &__review {
+    font-size: 20px;
+    grid-area: review;
+    margin: 0;
+  }
+
+  &__date {
+    grid-area: date;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
